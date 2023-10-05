@@ -15,7 +15,7 @@
     left: 0;
     right: 0;
     z-index: 999;
-    background-color: #FFB040;
+    background: linear-gradient(to right, #FFB040, #FF9C23);
     line-height: 20px;
 }
 .navbar-brand{
