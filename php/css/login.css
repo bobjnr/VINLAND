@@ -1,0 +1,349 @@
+/* Nav */
+.nav{
+    background-color: black;
+}
+.navbar-brand{
+    color: black;
+}
+#profilelist{
+    line-height: 30px;
+}
+#mysign{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.mybut{
+    width: 350px;
+    height: 35px;
+    margin-top: 10px;
+    border: 2px solid white;
+    box-sizing: border-box;
+}
+.mybut:hover{
+    width: 350px;
+    height: 35px;
+    margin-top: 10px;
+    border: 2px solid white;
+    box-sizing: border-box;
+}
+.box{
+    width: 500px;
+    height: 45px;
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+.box i{
+    font-size: 20px;
+    margin-top: 10px;
+}
+.box input{
+    border: none;
+    outline: none;
+}
+.box button{
+    margin-left: 60px;
+    margin-bottom: 5px;
+}
+.box button:hover{
+    border: none;
+}
+.signinbut{
+    width: 120px;
+    background-color: gold;
+    margin-left: 20px;
+    color: black;
+    box-sizing: border-box;
+}
+.signinbut:hover{
+    background-color: black;
+    color: gold;
+}
+#mynavbar ul p{
+    font-size: 11px;
+    margin-left: 10px;
+}
+#mynavbar ul p a{
+    text-decoration: none;
+}
+
+@media screen and (max-width:480px){
+    .box{
+        width: 100%!important;
+        height: 45px;
+        background-color: none;
+        border-radius: 30px;
+        border: 0px;
+        padding: 20px;
+        margin-top: 20px;
+    }
+    .box i{
+        margin-left: 30px;
+        font-size: 20px;
+        margin-top: 10px;
+        background-color: none;
+    }
+    .box input{
+        width: 70%;
+        height: 35px;
+        margin-top: 10px;
+        border: 2px solid white;
+        box-sizing: border-box;
+    }
+    .box button{
+       margin-top: 5px;
+        background-color: none;
+        width: 30%;         
+     }
+     .mybut{
+        width: 70%;
+        height: 35px;
+        margin-top: 10px;
+        border: 2px solid white;
+        box-sizing: border-box;
+    }
+    .mybut:hover{
+        width: 70%;
+        height: 35px;
+        margin-top: 10px;
+        border: 2px solid white;
+        box-sizing: border-box;
+    }
+}
+@media screen and (max-width:320px){
+    .box{
+        width: 100%!important;
+        height: 45px;
+        background-color: none;
+        border-radius: 30px;
+        border: 0px;
+        padding: 20px;
+        margin-top: 20px;
+    }
+    .box i{
+        font-size: 20px;
+        margin-top: 10px;
+    }
+    .box input{
+       width: 110px;
+       background-color: none;
+    }
+    .box button{ 
+       margin-top: 5px;
+        background-color: none;
+     }
+     .mybut{
+        width: 350px;
+        height: 35px;
+        margin-top: 10px;
+        border: 2px solid white;
+        box-sizing: border-box;
+    }
+    .mybut:hover{
+        width: 110px;
+        height: 35px;
+        margin-top: 10px;
+        border: 2px solid white;
+        box-sizing: border-box;
+    }
+    .mylista{
+        display: list-item;
+        justify-content: start;
+    }
+    .mypage h1{
+        font-size: 40px;
+    }
+      
+}
+@media screen and (max-width:280px){
+    .box{
+        width: 0%!important;
+        height: 45px;
+        background-color: orange;
+        border-radius: 30px;
+        border: 0px;
+        padding: 20px;
+        margin-top: 20px;
+    }
+    .box i{
+        font-size: 0px;
+        margin-top: 0px;
+        margin-right: 0px;
+    }
+    .box input{
+       width: 0%;
+       background-color: orange;
+       display: none;
+    }
+    .box button{ 
+       margin-top: 5px;
+        background-color: none;
+        width: 0%;
+     }
+     .mybut{
+        width: 350px;
+        height: 35px;
+        margin-top: 10px;
+        border: 2px solid none;
+        box-sizing: border-box;
+        background-color: none;
+    }
+    .mybut:hover{
+        width: 110px;
+        height: 35px;
+        margin-top: 10px;
+        border: 2px solid none;
+        box-sizing: border-box;
+        background-color: none;
+    }
+    .mylista{
+        display: list-item;
+        justify-content: start;
+    }
+    .mypage h1{
+        font-size: 40px;
+    }
+     
+}
+
+
+/* Categories */
+.first{
+    width: 100%;
+    display: flex;
+}
+.mylista ul li{
+    display: inline;
+    padding: 10px 10px;
+}
+.mylista ul li a{
+    text-decoration: none;
+}
+
+
+
+/* Body */
+body,
+html { 
+    background: url(../images/black-friday-elements-assortment.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+h1{
+    color: black;
+    font-size: 60px;
+    font-family: cursive;
+}
+.mypage{
+    margin-top: 110px;
+    color: black;
+}
+.mypage h1{
+    font-weight: bold;
+    text-shadow: 4px 4px 2px orange;
+}
+.mypage section p{
+    font-size: 17px;
+}
+.card:hover{
+    transform: scale(1.1);
+    transition: all 1s;
+    background-color: gainsboro;
+    color: black;
+}
+.myarrivals{
+    background: orange;
+}
+.mytop{
+    background-color: orange;   
+}
+.mystock{
+    background-color: gainsboro;
+}
+.fdeals div:hover{
+    transform: scale(1.1);
+    transition: all 1s;
+}
+.mydeals{
+    background-color: orange;
+}
+.btn-x{
+    padding: 8px 40px;
+    background-color: black;
+    border-color: black;
+    color: orange;
+    border-radius: 5px;
+}
+.btn-x:hover{
+    background-color: orange;
+    border-color: orange;
+    color: black;
+}
+.card div a{
+    background-color: orange;
+    color: black;
+    border-color: orange;
+}
+.card div{
+    text-align: center;
+}
+.card div a:hover{
+    background-color: black;
+    color: orange;
+    border-color: black;
+}
+
+/* Footer */
+#main-footer{
+    background-color: gainsboro;
+}
+#minor-footer{
+    background-color: orange;
+}
+.footers ul{
+    list-style: none;
+    padding-left: 0px;
+}
+.footers ul li{
+    padding: 5px 0px;
+}
+.footers ul li a{
+    text-decoration: none;
+    color: black;
+}
+.footers ul li a:hover{
+    text-decoration: none;
+    color: orange;
+}
+.footers button{
+    background-color: orange;
+}
+.icons i{
+    display: inline-block;
+    padding-inline: 15px;
+    color: orange;
+}
+
+
+/* Modal */
+.modalbut{
+    text-align: center;
+}
+.modalbut button{
+    background-color: orange;
+    color: black;
+    border-color: orange;
+}
+.modalbut button:hover{
+    background-color: black;
+    color: orange;
+    border-color: black;
+}
+.modal-body div a{
+    text-decoration: none;
+    text-align: center;
+}
