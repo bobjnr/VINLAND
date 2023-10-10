@@ -355,19 +355,19 @@ function city(){
 //     })
 // }
 
-const url = 'https://nigeria-states-and-lga.p.rapidapi.com/lgalists';
-const options = {
-	method: 'GET',
-	headers: {
-		'X-RapidAPI-Key': 'c0b930ad00msh58e4dc1df312286p1c9a5cjsncdc2563488b4',
-		'X-RapidAPI-Host': 'nigeria-states-and-lga.p.rapidapi.com'
-	}
-};
+// const url = 'https://nigeria-states-and-lga.p.rapidapi.com/lgalists';
+// const options = {
+// 	method: 'GET',
+// 	headers: {
+// 		'X-RapidAPI-Key': 'c0b930ad00msh58e4dc1df312286p1c9a5cjsncdc2563488b4',
+// 		'X-RapidAPI-Host': 'nigeria-states-and-lga.p.rapidapi.com'
+// 	}
+// };
 
-try {
-	const response = await fetch(url, options);
-	const result = await response.text();
-	console.log(result);
-} catch (error) {
-	console.error(error);
-}
+// try {
+// 	const response = await fetch(url, options);
+// 	const result = await response.text();
+// 	console.log(result);
+// } catch (error) {
+// 	console.error(error);
+// }

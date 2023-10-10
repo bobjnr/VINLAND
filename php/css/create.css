@@ -68,6 +68,7 @@
 .user input{
     border: 2px solid white!important;
     background-color: white!important;
+    width: 100%;
     box-sizing: border-box;
     outline: none;
 }
@@ -81,6 +82,7 @@
 .myemail input{
     border: 2px solid white!important;
     background-color: white!important;
+    width: 100%;
     box-sizing: border-box;
     outline: none;
 }
@@ -94,6 +96,7 @@
 .phone input{
     border: 2px solid white!important;
     background-color: white!important;
+    width: 100%;
     box-sizing: border-box;
     outline: none;
 }
